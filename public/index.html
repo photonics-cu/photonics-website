@@ -2,6 +2,34 @@
 <html lang="en">
 
 <head>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import {
+            initializeApp
+        } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js";
+        import {
+            getAnalytics
+        } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyBejeAoqxydJ9nXwb88tOhyztsSRVdH3H4",
+            authDomain: "photonics-society-cu.firebaseapp.com",
+            projectId: "photonics-society-cu",
+            storageBucket: "photonics-society-cu.appspot.com",
+            messagingSenderId: "165073519914",
+            appId: "1:165073519914:web:0f9ccdfff7be43051c4a53",
+            measurementId: "G-PEDHVZG97V"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+
+    </script>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -85,7 +113,7 @@
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                                        <span>About Us</span>
+                    <span>About Us</span>
 
                     <h2>About Us</h2>
                 </div>
@@ -110,9 +138,9 @@
             </div>
         </section><!-- End About Us Section -->
         <!-- ======= Hero Section ======= -->
-        
-        
-<!--
+
+
+        <!--
         <section id="new" class="d-flex align-items-center">
 
             <div class="container" data-aos="fade-up">
@@ -141,7 +169,7 @@
         </section>
         
 -->
-        
+
         <!-- End Hero -->
 
 
@@ -417,7 +445,7 @@
                         </div>
                     </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/latest.png" class="img-fluid" alt="...">
                             <div class="portfolio-info">
@@ -707,7 +735,7 @@
                                 <div class="sent-message">Thank you! Our Executive will call for further details</div>
                             </div>
                             <div class="text-center"><button type="submit">Join Now</button></div>
-                                            <p class="mt-2"><strong>join IEEE Photonics Society Chandigarh University Student Branch  now</strong></p>
+                            <p class="mt-2"><strong>join IEEE Photonics Society Chandigarh University Student Branch now</strong></p>
                         </form>
 
                     </div>
@@ -781,6 +809,8 @@
 
     <!--Main JS File -->
     <script src="assets/js/main.js"></script>
+
+
 
 </body>
 
