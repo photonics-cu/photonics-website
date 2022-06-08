@@ -349,23 +349,36 @@ margin-left: 330px;
 
   .home-slider .item-first {
     background-image: url(../images/2.jpg);
-	background-position: center;
+	background-size: cover;
+  background-position: center;
+ 
   }
 
-  .home-slider .item-fir {
-    background-image: url(../images/friendship-g6947b0e98_1920.jpg);
-	background-position: center;
-  }
-  .home-slider .item-sec {
-    background-image: url(../images/hands-g4adc1ff5a_1920.jpg);
-	background-position: center;
-  }
+
   .home-slider .item-second {
     background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: center;
+   
   }
 
   .home-slider .item-third {
     background-image: url(../images/WhatsApp\ Image\ 2022-05-15\ at\ 9.24.48\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+   
+  }
+   .home-slider .item-fir {
+    background-image: url(../images/friendship-g6947b0e98_1920.jpg);
+    background-size: cover;
+    background-position: center;
+   
+  }
+  .home-slider .item-sec {
+    background-image: url(../images/hands-g4adc1ff5a_1920.jpg);
+    background-size: cover;
+    background-position: center;
+   
   }
 
 .eventspic{
@@ -683,7 +696,7 @@ margin-left: 330px;
   
 
     #testimonial .item {
-      padding: 2em;
+      padding: 1em;
     }
 
     .contact-image {
@@ -703,6 +716,7 @@ margin-left: 330px;
    
     .eventdiv{
       margin-left: 32px;
+      max-width: fit-content;
     }
     .mission{
       margin-left: -3px;
@@ -722,24 +736,66 @@ margin-left: 330px;
     h1 {
       font-size: 2em;
     }
+    .navbar{
+      max-width: inherit;
+    }
+    .navbar-header{
+      max-width: inherit;
+    }
+    .mission , .vission{
+     
+    }
    #ieelogo{
      margin-top: -30px;
      margin-left: 15px;
    }
    .eventdiv{
-    margin-left: 30px;
+    margin-left: 18px;
+    margin-right: -10px;
+    max-width: fit-content;
+   
   }
+ .eventspic{
+  width: 90%;
+  height: 97%;
+ }
     #home h3 {
       font-size: 14px;
     }
 
     .entry-form {
       border-radius: 0;
-      padding: 2em;
-      max-width: 100%;
-      max-height: 100%;
-      width: inherit;
-      height: inherit;
+      padding: 1em;
+      max-width: 95%;
+     
     }
+   
+    
+    
+     
+     #home{
+       max-width: fit-content;
+     }
+     html, body {width: auto!important; overflow-x: hidden!important} 
+     #testimonial{
+       max-width: fit-content;
+     }
+     .achvdiv{
+       max-width: fit-content;
+     }
+     #contact{
+       max-width: fit-content;
+     }
+     #footer{
+       max-width: fit-content;
+       max-height: fit-content;
+  
+      }
+  .namedsg{
+    max-width: fit-content;
+  }
+  .teambg{
+    max-width: fit-content;
+  }
   }
   
