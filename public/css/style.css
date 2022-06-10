@@ -1,6 +1,6 @@
 
 
-  @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
+  @import url('https://fonts.googleapis.com/css?family=Muli:300,700,900|Nunito');
 
   body {
     background: #ffffff;
@@ -105,20 +105,14 @@
   }
 
   .entry-form {
-    background: #252020;
-    border-radius: 100%;
+    background: #000000;
+    border-radius: 10px;
     text-align: center;
-    padding: 6em;
-    width: 500px;
-    height: 500px;
+    padding: 4em;
+   
     
   }
-  .mission{
-    margin-left: 70px;
-  }
-  .vission{
-margin-left: 330px;
-  }
+  
 
   .entry-form h2 {
     color: #ffffff;
@@ -363,7 +357,7 @@ margin-left: 330px;
   }
 
   .home-slider .item-third {
-    background-image: url(../images/WhatsApp\ Image\ 2022-05-15\ at\ 9.24.48\ PM.jpeg);
+    background-image: url(../images/WhatsApp%20Image%202022-05-15%20at%209.24.48%20PM.jpeg);
     background-size: cover;
     background-position: center;
    
@@ -718,19 +712,8 @@ margin-left: 330px;
       margin-left: 32px;
       max-width: fit-content;
     }
-    .mission{
-      margin-left: -3px;
-    }
-    .vission{
-      margin-left: -3px;
-      margin-top: 15px;
-    }
-    .entry-form{
-      width: 450px;
-      height: 450px;
-      padding: 3em;
-    }
-  }
+ 
+   
 
   @media only screen and (max-width: 480px) {
     h1 {
@@ -763,13 +746,7 @@ margin-left: 330px;
       font-size: 14px;
     }
 
-    .entry-form {
-      border-radius: 0;
-      padding: 1em;
-      max-width: 95%;
-     
-    }
-   
+    
     
     
      
